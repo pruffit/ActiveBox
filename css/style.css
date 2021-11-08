@@ -118,13 +118,14 @@ p{
     font-family: inherit;
     border: 0;
     cursor: pointer;
+    text-align: center;
 
     font-size: 13px;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
-    transition: color .1s linear, background-color .1s linear;
+    transition: color .1s linear, background-color .1s linear, border .1s linear;
 }
 
 .btn--red{
@@ -134,6 +135,14 @@ p{
 .btn--red:hover{
     color: #e84545;
     background-color: white;
+}
+
+.btn--bg{
+    min-width: 280px;
+}
+
+.btn--bg:hover{
+    border: 1px #e84545 solid;
 }
 
 /*FEATURES*/
@@ -330,4 +339,25 @@ p{
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+}
+
+/*DOWNLOAD*/
+.download{
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title{
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.download__subtitle{
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
