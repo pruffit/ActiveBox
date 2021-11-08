@@ -291,6 +291,14 @@ p{
     color: #e84545;
 }
 
+.social--white{
+    color: rgba(255, 255, 255, .5);
+}
+
+.social--white:hover{
+    color: #fff;
+}
+
 /*REVIEWS*/
 .reviews{
     overflow: hidden;
@@ -360,4 +368,64 @@ p{
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #3a3e64;
+}
+
+.footer__inner{
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block{
+    width: 33.3333%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.footer__title{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer__address{
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer__text{
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.copyright{
+    background-color: #313454;
+    padding: 20px 0;
+}
+
+.copyright__text{
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.5;
+}
+
+.copyright__text span{
+    color: #fff;
+}
+
+.copyright__text i{
+    color: #e84545;
+    font-size: 14px;
 }
