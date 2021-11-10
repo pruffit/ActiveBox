@@ -535,11 +535,12 @@ p{
 
     .intro__title{
         font-size: 20px;
+        margin-bottom: 60px;
     }
 
     .intro__subtitle{
         font-size: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 
     /*FEATURES*/
