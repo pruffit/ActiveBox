@@ -21,15 +21,15 @@
                 <div class="header__logo">
                     <img src="image/header/logo.png" alt="logo">
                 </div>
-                <nav class="nav">
-                    <a href="#" class="nav__link">Features</a>
-                    <a href="#" class="nav__link">Works</a>
-                    <a href="#" class="nav__link">Our Team</a>
-                    <a href="#" class="nav__link">Testimonials</a>
-                    <a href="#" class="nav__link">Download</a>
+                <nav class="nav" id="nav">
+                    <a href="#" class="nav__link" data-scroll="#features">Features</a>
+                    <a href="#" class="nav__link" data-scroll="#works">Works</a>
+                    <a href="#" class="nav__link" data-scroll="#team">Our Team</a>
+                    <a href="#" class="nav__link" data-scroll="#testimonials">Testimonials</a>
+                    <a href="#" class="nav__link" data-scroll="#download">Download</a>
                 </nav>
 
-                <button class="burger" type="button">
+                <button class="burger" id="navToggle" type="button">
                     <span class="burger__item"></span>
                 </button>
             </div>
@@ -54,7 +54,7 @@
     </div>
 
 <!--FEATURES-->
-    <div class="container">
+    <div class="container" id="features">
         <div class="features">
             <div class="features__item">
                 <img class="features__icon" src="image/features/1.png" alt="">
@@ -114,7 +114,7 @@
     </div>
 
 <!--WORKS-->
-    <div class="works">
+    <div class="works" id="works">
         <div class="works__item">
             <img class="works__photo" src="image/works/1.jpg" alt="">
             <div class="works__content">
@@ -206,7 +206,7 @@
     </div>
 
 <!--TEAM-->
-    <div class="team">
+    <div class="team" id="team">
         <div class="container">
             <div class="team__inner">
                 <div class="team__item">
@@ -306,7 +306,7 @@
     </div>
 
 <!--TESTIMONIALS-->
-    <div class="reviews">
+    <div class="reviews" id="testimonials">
         <div class="container">
             <div class="reviews__item">
                 <div class="reviews__photo">
@@ -325,7 +325,7 @@
     </div>
 
 <!--DOWNLOAD-->
-    <div class="download">
+    <div class="download" id="download">
         <div class="container">
             <h3 class="download__title">
                 Are You Ready to Start? Download Now For Free!

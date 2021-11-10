@@ -509,6 +509,23 @@ p{
     /*NAV*/
     .nav{
         display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background: #31344e;
+    }
+
+    .nav.show{
+        display: flex;
+    }
+
+    .nav__link{
+        padding: 10px 15px;
+        margin-left: 0;
     }
 
     .burger{
@@ -634,5 +651,11 @@ p{
 @media (max-width: 414px){
     .reviews__img{
         right: -120px;
+    }
+
+    .team__photo{
+        min-width: 150px;
+        width: 200px;
+        height: 200px;
     }
 }
