@@ -620,7 +620,7 @@ p{
 
     /*BTN*/
     .btn--bg{
-        min-width: 260px;
+        min-width: 200px;
     }
 
     .download{
