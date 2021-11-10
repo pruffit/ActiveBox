@@ -534,6 +534,7 @@ p{
     }
 
     .intro__title{
+        margin-top: 60px;
         font-size: 28px;
         margin-bottom: 60px;
     }
